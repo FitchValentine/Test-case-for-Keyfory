@@ -1,6 +1,5 @@
 """Database models."""
 from datetime import datetime
-from typing import Optional
 
 from advanced_alchemy.base import BigIntPrimaryKey
 from sqlalchemy import Text, func

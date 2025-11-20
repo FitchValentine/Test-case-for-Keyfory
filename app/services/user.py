@@ -1,7 +1,6 @@
 """User service."""
 from typing import List
 
-from advanced_alchemy.extensions.litestar import SQLAlchemyAsyncRepository
 from litestar.exceptions import NotFoundException
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession

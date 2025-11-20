@@ -1,7 +1,5 @@
 """Logging configuration."""
-import sys
 from contextvars import ContextVar
-from typing import Any
 
 import structlog
 

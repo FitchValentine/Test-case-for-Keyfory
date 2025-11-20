@@ -1,7 +1,6 @@
 """User controller."""
 from typing import List
 
-from advanced_alchemy.extensions.litestar import SQLAlchemyAsyncRepository
 from litestar import Controller, delete, get, post, put
 from litestar.di import Provide
 from litestar.exceptions import HTTPException
@@ -10,7 +9,6 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.base import get_session
 from app.logger import get_logger, trace_id_context
-from app.repositories.user import UserRepository
 from app.schemas.user import UserCreate, UserResponse, UserUpdate
 from app.services.user import UserService
 

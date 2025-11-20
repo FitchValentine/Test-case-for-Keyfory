@@ -1,10 +1,7 @@
 """Application configuration."""
 import os
-from typing import Optional
 
 from dotenv import load_dotenv
-from litestar.config.app import AppConfig
-from litestar.logging import LoggingConfig
 
 load_dotenv()
 
